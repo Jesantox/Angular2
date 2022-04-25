@@ -17,13 +17,37 @@
             <p style='font-size: 20px; font-weight: bold;'> Desenvolvimento WEB com ES6 TypeScript e Angular </p>
         </div>
     </div>
-    <div id='requisitos' style='max-width: 800px; margin: 0 auto'> 
-        <h2> REQUISITOS </h2>
-        <ul> 
-            <li style='margin: 10px 0 0 0;'> <span style='color: #d6ffff; font-weight: bold;'> NODE JS </span>  </li>
-            <li style='margin: 10px 0 0 0;'> <span style='color: #d6ffff; font-weight: bold;'> NPM </span> </li>
-            <li style='margin: 10px 0 0 0;'> <span style='color: #d6ffff; font-weight: bold;'> ANGULAR CLI </span> </li>
-        </ul>
+    <div style='display: flex; 
+                max-width: 500px; 
+                margin: 0 auto;'>  
+        <div id='requisitos' style='max-width: max-content; margin: 0 auto'> 
+            <h2> REQUISITOS </h2>
+            <ul> 
+                <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> NODE JS </span> 
+                </li>
+                <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> NPM </span> 
+                </li>
+                <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> ANGULAR CLI </span> 
+                </li>
+            </ul>
+        </div>
+        <div id='comandos' style='max-width: max-content; margin: 0 auto'> 
+            <h2> COMANDOS </h2>
+            <ul> 
+                <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> node -v </span> 
+                </li>
+                <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> npm -v </span> 
+                </li>
+                <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> ng version </span> 
+                </li>
+            </ul>
+        </div>
     </div>
 
 </body>
