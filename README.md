@@ -32,6 +32,9 @@
                 <li style='margin: 10px 0 0 0;'> 
                     <span style='color: #d6ffff; font-weight: bold;'> ANGULAR CLI </span> 
                 </li>
+                 <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> TYPESCRIPT </span> 
+                </li>
             </ul>
         </div>
         <div id='comandos' style='max-width: max-content; margin: 0 auto'> 
@@ -45,6 +48,9 @@
                 </li>
                 <li style='margin: 10px 0 0 0;'> 
                     <span style='color: #d6ffff; font-weight: bold;'> ng version </span> 
+                </li>
+                <li style='margin: 10px 0 0 0;'> 
+                    <span style='color: #d6ffff; font-weight: bold;'> tsc -v </span> 
                 </li>
             </ul>
         </div>
