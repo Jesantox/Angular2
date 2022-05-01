@@ -1,0 +1,64 @@
+body {
+  background-color: #f5f5f5;
+  color: #1c1c1c;
+}
+body .intro {
+  display: flex;
+}
+body .intro .banner {
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 20px 0;
+  box-shadow: 0px 0.8px 6.6px rgba(0, 0, 0, 0.087), 0px 1.7px 15.9px rgba(0, 0, 0, 0.11), 0px 3px 29.9px rgba(0, 0, 0, 0.126), 0px 4.6px 53.4px rgba(0, 0, 0, 0.142), 0px 6.3px 99.8px rgba(0, 0, 0, 0.16), 0px 7px 239px rgba(0, 0, 0, 0.18);
+  width: 400px;
+}
+body .intro .banner .banner-title .title {
+  max-width: max-content;
+  margin: 0 auto;
+}
+body .intro .banner .banner-title .title .TS {
+  color: #aacbe9;
+}
+body .intro .banner .banner-title .title .and {
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#e9baaa, #e9baaa, #aacbe9, #e9baaa);
+}
+body .intro .banner .banner-title .title .angular {
+  color: #e9baaa;
+}
+body .intro .banner .banner-title .logo {
+  display: flex;
+  max-width: max-content;
+  margin: 10px auto;
+}
+body .intro .requisitos {
+  width: 500px;
+  height: 155px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px 0;
+  box-shadow: 0px 0.8px 6.6px rgba(0, 0, 0, 0.087), 0px 1.7px 15.9px rgba(0, 0, 0, 0.11), 0px 3px 29.9px rgba(0, 0, 0, 0.126), 0px 4.6px 53.4px rgba(0, 0, 0, 0.142), 0px 6.3px 99.8px rgba(0, 0, 0, 0.16), 0px 7px 239px rgba(0, 0, 0, 0.18);
+}
+body .intro .requisitos .title {
+  margin: 20px auto;
+  background-color: #e9baaa;
+}
+body .intro .requisitos .content {
+  display: flex;
+  justify-content: space-around;
+}
+body .intro .requisitos .content p {
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  width: max-content;
+  border-radius: 20px;
+  background-color: #aacbe9;
+}
+
+/*# sourceMappingURL=index.css.map */
