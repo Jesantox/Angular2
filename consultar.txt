@@ -1,0 +1,7 @@
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+🟢 VAR   - Escopo global - Alterável
+🟢 LET   - Escopo local  - Alterável
+🟢 CONST - Escopo local  - Não Alterável
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
