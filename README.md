@@ -6,6 +6,7 @@
 ### 👉 <a href='#sobre'>SOBRE O ANGULAR</a>
 ### 👉 <a href='#requisitos'>REQUISITOS</a>
 ### 👉 <a href='#angular-cli'>ANGULAR CLI</a>
+### 👉 <a href='#componente'>COMPONENTES</a>
 ### 👉 <a href='#vantagens'>VANTAGENS</a>
  </span>
  
@@ -28,12 +29,10 @@
  
  
 <details>
- <summary> 
-  <span id='requisitos'> REQUISÍTOS <span/> 
- </summary> <br>
+ <summary> <span id='requisitos'> REQUISÍTOS <span/> </summary> <br>
  
-👉 `node js` [↗️](https://nodejs.org/en/download/) <br>
-👉 `angular-cli` [↗️](https://angular.io/cli)
+👉 `node js` [↗️](https://nodejs.org/en/download/)
+  👉 `angular-cli` [↗️](https://angular.io/cli)
 
 </details>
  
@@ -79,6 +78,42 @@
   <a href='#intro'> ⬆️  </a>
   </details>
  
+  <details>
+  <summary> <span id='componente'> COMPONENTES <span/> </summary> <br>
+   
+  Angular é baseado em componentes. Com eles, podemos encapsular comportamentos e regras da interface, <br>
+  tornando a criação de aplicação simples e eficaz. Inclusive, um componente pode encapsular outros componentes, <br>
+  pois é possível dividir a UI em partes independentes, porém reutilizáveis. Ou seja, tratamos cada parte da aplicação <br>
+  como um bloco isolado, livre de outras dependências externas.
+   
+  Muito útil quando precisamos reutilizar, por exemplo : 
+  
+  👉 `header`
+  👉 `footer`
+  👉 `menu-nav`
+  👉 `carousel-card`
+   
+  
+  
+  <br>
+   
+  🔶 `Estrutura de um componente`
+  
+    <img src='https://img.shields.io/static/v1?label=&message=HTML&color=%23f06529'>
+    <img src='https://img.shields.io/static/v1?label=&message=SCSS&color=%23cc6699'>
+    <img src='https://img.shields.io/static/v1?label=&message=TYPESCRIPT&color=%23007acc'>
+  
+  <br>
+   
+  🔶 `Gerar um componente`
+ 
+  ```
+  ng g c nomeComponent
+  ```
+   
+   <a href='#intro'> ⬆️  </a>
+  
+  </details>
   
   <details>
   <summary> <span id='vantagens'> VANTAGENS <span/> </summary> <br>
