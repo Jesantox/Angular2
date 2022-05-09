@@ -82,10 +82,10 @@
   <details>
   <summary> <span id='componente'> COMPONENTES <span/> </summary> <br>
    
-  Angular é baseado em componentes. Com eles, podemos encapsular comportamentos e regras da interface, <br>
-  tornando a criação de aplicação simples e eficaz. Inclusive, um componente pode encapsular outros componentes, <br>
-  pois é possível dividir a UI em partes independentes, porém reutilizáveis. Ou seja, tratamos cada parte da aplicação <br>
-  como um bloco isolado, livre de outras dependências externas.
+  Angular é baseado em componentes. Com eles, podemos encapsular comportamentos e regras <br>
+  da interface, tornando a criação de aplicação simples e eficaz. Inclusive, um componente pode <br>
+  encapsular outros componentes, pois é possível dividir a UI em partes independentes, porém <br>
+  reutilizáveis. Ou seja, tratamos cada parte da aplicação como um bloco isolado e independente.
    
   Muito útil quando precisamos reutilizar, por exemplo : 
   
@@ -100,9 +100,9 @@
    
   🔶 `Estrutura de um componente`
   
-    <img src='https://img.shields.io/static/v1?label=&message=HTML&color=%23f06529'>
-    <img src='https://img.shields.io/static/v1?label=&message=SCSS&color=%23cc6699'>
-    <img src='https://img.shields.io/static/v1?label=&message=TYPESCRIPT&color=%23007acc'>
+  <a href='#'> <img src='https://img.shields.io/static/v1?label=&message=HTML&color=%23f06529'>       </a>
+  <a href='#'> <img src='https://img.shields.io/static/v1?label=&message=SCSS&color=%23cc6699'>       </a>
+  <a href='#'> <img src='https://img.shields.io/static/v1?label=&message=TYPESCRIPT&color=%23007acc'> </a>
   
   <br>
    
