@@ -7,6 +7,7 @@
 ### 👉 <a href='#requisitos'>REQUISITOS</a>
 ### 👉 <a href='#angular-cli'>ANGULAR CLI</a>
 ### 👉 <a href='#componente'>COMPONENTES</a>
+### 👉 <a href='#ciclo-de-vida'>CICLOS DE VIDA</a>
 ### 👉 <a href='#vantagens'>VANTAGENS</a>
  </span>
  
@@ -112,6 +113,26 @@
   ```
    
    <a href='#intro'> ⬆️  </a>
+  
+  </details>
+   
+  <details>
+  <summary> <span id='ciclo-de-vida'> CICLOS DE VIDA <span/> </summary> <br>
+   
+  No Angular, cada componente tem um ciclo de vida, que são diferentes estágios pelos quais ele passa. <br>
+  Existem 08 estágios no ciclo de vida de um componente. Cada estágio é um evento chamado. <br>
+  Portanto, podemos usá-los em diferentes fases da aplicação para controlar os componentes. <br>
+
+  Como um componente é uma classe TypeScript. Cada componente deve ter um método construtor. <br>
+  O construtor é executado, primeiro, antes da execução de qualquer outro evento de ciclo de vida. <br>
+   
+  Eventos existentes dentro de uma classe : <br>
+  
+  🔶 `ngOnInit`
+   
+  Este evento é inicializado após o Angular carregar pela primeira vez a aplicação. <br>
+  Usado principalmente para inicializar dados em um componente.
+  
   
   </details>
   
