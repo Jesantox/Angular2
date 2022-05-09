@@ -12,6 +12,9 @@ export class ComponenteInicialComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    setTimeout( () => {
+      console.log('ngOnInit startado após 5 seg')
+    }, 5000)
   }
 
 }
