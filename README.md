@@ -126,12 +126,17 @@
   Como um componente é uma classe TypeScript. Cada componente deve ter um método construtor. <br>
   O construtor é executado, primeiro, antes da execução de qualquer outro evento de ciclo de vida. <br>
    
-  Eventos existentes dentro de uma classe : <br>
+  Eventos existentes dentro de uma classe : <br><br>
   
-  🔶 `ngOnInit`
+  🔶 `ngOnInit()`
    
   Este evento é inicializado após o Angular carregar pela primeira vez a aplicação. <br>
-  Usado principalmente para inicializar dados em um componente.
+  Usado principalmente para inicializar dados em um componente. <br> <br>
+   
+  🔶 `ngOnChanges()`
+   
+  Este evento é executado sempre que um componente recebe um dado externo <br>
+  através do decorator @Input(), que declaramos antes do atributo.
   
   
   </details>
