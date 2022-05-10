@@ -76,7 +76,7 @@
   ng b --prod
   ```
    
-  <a href='#intro'> ⬆️  </a>
+                                                                                                       <a href='#intro'> back to top ⬆️  </a>
   </details>
  
   <details>
@@ -112,7 +112,7 @@
   ng g c nomeComponent
   ```
    
-   <a href='#intro'> ⬆️  </a>
+                                                                                                       <a href='#intro'> back to top ⬆️  </a>
   
   </details>
    
@@ -127,20 +127,22 @@
   O construtor é executado, primeiro, antes da execução de qualquer outro evento de ciclo de vida. <br>
    
   Eventos existentes dentro de uma classe : <br><br>
-  
-  🔶 `ngOnInit()`
    
-  Este evento é inicializado após o Angular carregar pela primeira vez a aplicação. <br>
-  Usado principalmente para inicializar dados em um componente. <br> <br>
-   
-  🔶 `ngOnChanges()`
-   
-  Este evento é executado sempre que um componente recebe um dado externo <br>
-  através do decorator @Input(), que declaramos antes do atributo.
-  
-  
+  | Eventos                 | Disparos                                                                |
+  | ------------------------| ------------------------------------------------------------------------|
+  | ngOnChanges()           | Quando um valor property-binding `@input()` ou `@output()` é atualizado |
+  | ngOnInit()              | Quando o componente é inicializado                                      |
+  | ngDoCheck()             | A cada ciclo de verificação de mudanças                                 |
+  | ngAfterContentlnit()    | Após inserir conteúdo externo na view                                   |
+  | ngAfterContentChecked() | A cada verificação de conteúdo inserido                                 |
+  | ngAfterViewChecked()    | A cada verificação de conteúdo/conteúdo filho                           |
+  | ngAfterContentlnit()    | Após inserir conteúdo externo na view                                   |
+  | ngOnDestroy()           | Antes da diretiva/component ser destruído                               | 
+ 
+                                                                                                       <a href='#intro'> back to top ⬆️  </a>
+  <br>
   </details>
-  
+ 
   <details>
   <summary> <span id='vantagens'> VANTAGENS <span/> </summary> <br>
    
@@ -152,7 +154,7 @@
   ✔️ Aplicativos de página única `SPA` ; <br>
   ✔️ Compatibilidade com Desktop e smartphone; <br>
    
-  <a href='#intro'> ⬆️  </a>
+                                                                                                       <a href='#intro'> back to top ⬆️  </a>
   </details>
  
  
