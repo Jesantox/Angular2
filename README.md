@@ -15,7 +15,7 @@
  
 <details>
  <summary> 
-  <span id='sobre'> SOBRE O ANGULAR <span/> 
+  <span id='sobre'> SOBRE O ANGULAR </span> 
  </summary> <br>
  
 
@@ -30,7 +30,7 @@
  
  
 <details>
- <summary> <span id='requisitos'> REQUISÍTOS <span/> </summary> <br>
+ <summary> <span id='requisitos'> REQUISÍTOS </span> </summary> <br>
  
 👉 `node js` [↗️](https://nodejs.org/en/download/)
   👉 `angular-cli` [↗️](https://angular.io/cli)
@@ -39,7 +39,7 @@
  
  
  <details>
-  <summary> <span id='angular-cli'> ANGULAR CLI <span/> </summary> <br>
+  <summary> <span id='angular-cli'> ANGULAR CLI </span> </summary> <br>
  
   É uma interface de linha de comando do Angular. Ferramenta open source <br>
   desenvolvida para facilitar a criação de componentes, classes, services etc...
@@ -80,7 +80,7 @@
   </details>
  
   <details>
-  <summary> <span id='componente'> COMPONENTES <span/> </summary> <br>
+  <summary> <span id='componente'> COMPONENTES </span> </summary> <br>
    
   Angular é baseado em componentes. Com eles, podemos encapsular comportamentos e regras <br>
   da interface, tornando a criação de aplicação simples e eficaz. Inclusive, um componente pode <br>
@@ -117,7 +117,7 @@
   </details>
    
   <details>
-  <summary> <span id='ciclo-de-vida'> CICLOS DE VIDA <span/> </summary> <br>
+  <summary> <span id='ciclo-de-vida'> CICLOS DE VIDA </span> </summary> <br>
    
   No Angular, cada componente tem um ciclo de vida, que são diferentes estágios pelos quais ele passa. <br>
   Existem 08 estágios no ciclo de vida de um componente. Cada estágio é um evento chamado. <br>
@@ -144,7 +144,7 @@
   </details>
  
   <details>
-  <summary> <span id='vantagens'> VANTAGENS <span/> </summary> <br>
+  <summary> <span id='vantagens'> VANTAGENS </span> </summary> <br>
    
   ✔️ Testes; <br>
   ✔️ Flexibilidade; <br>
