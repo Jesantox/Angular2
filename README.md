@@ -76,7 +76,7 @@
   ng b --prod
   ```
    
-                                                                                                       <a href='#intro'> back to top ⬆️  </a>
+                                                                                           <a href='#intro'> back to top ⬆️  </a>
   </details>
  
   <details>
@@ -112,7 +112,7 @@
   ng g c nomeComponent
   ```
    
-                                                                                                       <a href='#intro'> back to top ⬆️  </a>
+                                                                                           <a href='#intro'> back to top ⬆️  </a>
   
   </details>
    
@@ -139,7 +139,7 @@
   | ngAfterContentlnit()    | Após inserir conteúdo externo na view                                   |
   | ngOnDestroy()           | Antes da diretiva/component ser destruído                               | 
  
-                                                                                                       <a href='#intro'> back to top ⬆️  </a>
+                                                                                           <a href='#intro'> back to top ⬆️  </a>
   <br>
   </details>
  
@@ -154,7 +154,7 @@
   ✔️ Aplicativos de página única `SPA` ; <br>
   ✔️ Compatibilidade com Desktop e smartphone; <br>
    
-                                                                                                       <a href='#intro'> back to top ⬆️  </a>
+                                                                                           <a href='#intro'> back to top ⬆️  </a>
   </details>
  
  
