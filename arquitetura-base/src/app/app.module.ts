@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponenteInicialComponent } from './componente-inicial/componente-inicial.component';
 import { TextoComponent } from './texto/texto.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponenteInicialComponent,
-    TextoComponent
+    TextoComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,

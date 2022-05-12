@@ -12,14 +12,8 @@ export class ComponenteInicialComponent implements OnInit, OnChanges {
 
   constructor() { }
 
-  ngOnInit(): void {
-    setTimeout( () => {
-      console.log('ngOnInit startado após 5 seg')
-    }, 5000)
-  }
+  ngOnInit(): void { }
 
-  ngOnChanges(changes: SimpleChanges): void {
-    
-  }
+  ngOnChanges(changes: SimpleChanges): void { }
 
 }

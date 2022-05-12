@@ -11,11 +11,8 @@ export class TextoComponent implements OnInit, OnChanges {
   
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
-  ngOnChanges(changes: SimpleChanges): void {
-    console.log('Título alterado com sucesso !')
-  }
+  ngOnChanges(changes: SimpleChanges): void { }
 
 }
