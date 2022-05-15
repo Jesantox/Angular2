@@ -1,6 +1,7 @@
-<section class="components"> 
+<section class="components" *ngIf="!deletarCiclo"> 
     <app-ciclo class="filhos" [idade] = 'valorIdade' ></app-ciclo>
     <button (click)="mudarValor()">Mudar valor</button>
+    <button (click)="destruirCiclo()">Destruir Ciclo</button>
     <app-componente-inicial class="filhos"></app-componente-inicial>
     <app-texto class="filhos" title = 'seu texto foi sobrescrito no app.component'> </app-texto>
 </section>

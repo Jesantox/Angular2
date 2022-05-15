@@ -9,6 +9,13 @@ export class AppComponent {
   
   valorIdade: number = 10
 
+  deletarCiclo: boolean = false
+
+
+  destruirCiclo() {
+    this.deletarCiclo = true
+    console.log('section destruida')
+  }
   /**
    * irá acionar os eventos ngOnChanges(), ngDoCheck(), ngAfterContentChecked(), 
    * ngAfterViewChecked no console do navegador
