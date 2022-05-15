@@ -5,7 +5,8 @@ import { OnInit,
          OnChanges, 
          AfterViewChecked, 
          AfterContentInit, 
-         AfterContentChecked } from '@angular/core';
+         AfterContentChecked, 
+         Input} from '@angular/core';
 
 @Component({
   selector: 'app-ciclo',
@@ -13,6 +14,8 @@ import { OnInit,
   styleUrls: ['./ciclo.component.scss']
 })
 export class CicloComponent implements OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewChecked, OnDestroy{
+
+  @Input() idade: number = 12
 
   constructor() { 
     this.log('constructor'); // método log usado para não ficar repetindo 

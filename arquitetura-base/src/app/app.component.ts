@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'arquitetura-base';
+  
+  valorIdade: number = 10
+
+  /**
+   * irá acionar os eventos ngOnChanges(), ngDoCheck(), ngAfterContentChecked(), 
+   * ngAfterViewChecked no console do navegador
+   */
+  mudarValor(){
+    this.valorIdade++
+  }
 }

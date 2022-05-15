@@ -8,7 +8,6 @@ import { Component, Input, OnInit, OnChanges, SimpleChanges } from '@angular/cor
 export class ComponenteInicialComponent implements OnInit, OnChanges {
 
   public title: string = 'texto padrão do componente-inicial';
-  @Input() public idade: string = '12'
 
   constructor() { }
 

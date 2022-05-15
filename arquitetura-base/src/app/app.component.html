@@ -1,7 +1,8 @@
 <section class="components"> 
-    <app-ciclo></app-ciclo>
-    <app-componente-inicial idade = 'sua idade foi sobrescrita no app.component'></app-componente-inicial>
-    <app-texto title = 'seu texto foi sobrescrito no app.component'> </app-texto>
+    <app-ciclo class="filhos" [idade] = 'valorIdade' ></app-ciclo>
+    <button (click)="mudarValor()">Mudar valor</button>
+    <app-componente-inicial class="filhos"></app-componente-inicial>
+    <app-texto class="filhos" title = 'seu texto foi sobrescrito no app.component'> </app-texto>
 </section>
 
 <router-outlet></router-outlet>
