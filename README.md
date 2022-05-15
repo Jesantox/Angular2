@@ -136,7 +136,6 @@
   | ngAfterContentlnit()    | Após inserir conteúdo externo na view                                   |
   | ngAfterContentChecked() | A cada verificação de conteúdo inserido                                 |
   | ngAfterViewChecked()    | A cada verificação de conteúdo/conteúdo filho                           |
-  | ngAfterContentlnit()    | Após inserir conteúdo externo na view                                   |
   | ngOnDestroy()           | Antes da diretiva/component ser destruído                               | 
  
                                                                                            <a href='#intro'> back to top ⬆️  </a>
