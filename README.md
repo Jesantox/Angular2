@@ -8,6 +8,7 @@
 ### 👉 <a href='#angular-cli'>ANGULAR CLI</a>
 ### 👉 <a href='#componente'>COMPONENTES</a>
 ### 👉 <a href='#ciclo-de-vida'>CICLOS DE VIDA</a>
+### 👉 <a href='#data-binding'>DATA BINDING</a>
 ### 👉 <a href='#vantagens'>VANTAGENS</a>
  </span>
  
@@ -141,6 +142,34 @@
                                                                                            <a href='#intro'> back to top ⬆️  </a>
   <br>
   </details>
+ 
+  <details>
+  <summary> <span id='data-binding'> DATA BINDING </span> </summary> <br>
+ 
+  É uma forma de exibir dados em seu component HTML, <br>
+  nada mais do que trabalhar com dados. <br> <br>
+ 
+  🔶 `Interpolation`
+
+  A interpolação de texto permite que você incorpore valores <br>
+  das class TS dentre chaves em seu modelo HTML. <br> <br>
+ 
+  🔶 `Property Binding`
+ 
+  Ajuda a definir valores dentre colchetes para elementos ou diretivas HTML. <br> <br> 
+ 
+  🔶 `Event Binding`
+ 
+  É a associação de eventos que permite você escutar e responder às ações do usuário, <br> 
+  como pressionamentos de tecla, movimentos do mouse, cliques e toques. <br> <br> 
+ 
+  🔶 `TWO-WAY Binding`
+ 
+  É a união do property-binding com event-binding. Use para ouvir eventos <br>
+  e atualizar valores simultaneamente entre os componentes pai e filho. <br>
+ 
+  </details>
+ 
  
   <details>
   <summary> <span id='vantagens'> VANTAGENS </span> </summary> <br>
