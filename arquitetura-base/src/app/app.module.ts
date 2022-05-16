@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { ComponenteInicialComponent } from './componente-inicial/componente-inicial.component';
 import { TextoComponent } from './texto/texto.component';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponenteInicialComponent,
     TextoComponent,
-    CicloComponent
+    CicloComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

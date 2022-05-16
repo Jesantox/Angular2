@@ -16,6 +16,7 @@ import { OnInit,
 export class CicloComponent implements OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewChecked, OnDestroy{
 
   @Input() idade: number = 12
+  nome: string = 'jean'
 
   constructor() { 
     this.log('constructor'); // método log usado para não ficar repetindo 
