@@ -19,4 +19,13 @@
 
 <button (click)="onClick()">clicar</button>
 
+<ul>
+    <li *ngFor="let item of list; let i = index" (click)="removerComClick(i)">
+        [ {{i}} ] - {{item.nome}} - idade = {{item.idade}}
+    </li>
+</ul>
+
+<button (click)="addUserList()">add usuário</button>
+<button (click)="removeLastUserList()">remover ultimo usuário</button>
+
 

@@ -9,6 +9,12 @@ export class DiretivasComponent implements OnInit {
 
   public condition: boolean = true
   public conditionClick: boolean = true
+
+  public list: Array<{nome: string, idade: number}> = [
+    { nome: "Teste01", idade: 20},
+    { nome: "Teste02", idade: 10},
+    { nome: "Teste03", idade: 30}
+  ]
   constructor() { }
 
   ngOnInit(): void {
@@ -29,6 +35,18 @@ export class DiretivasComponent implements OnInit {
     } else {
       this.conditionClick = true
     }
+  }
+
+  public addUserList() {
+    this.list.push({ nome: 'carlos', idade: 25 })
+  }
+
+  public removeLastUserList() {
+    this.list.splice(-1)
+  }
+
+  public removerComClick(event: number) {
+    this.list.splice(event, 1)
   }
 
 }
