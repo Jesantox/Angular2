@@ -9,6 +9,7 @@ import { CicloComponent } from './ciclo/ciclo.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { DiretivasComponent } from './diretivas/diretivas.component';
+import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DiretivasComponent } from './diretivas/diretivas.component';
     TextoComponent,
     CicloComponent,
     DataBindingComponent,
-    DiretivasComponent
+    DiretivasComponent,
+    DiretivasAtributosComponent
   ],
   imports: [
     BrowserModule,
