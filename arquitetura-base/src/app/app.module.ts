@@ -8,6 +8,7 @@ import { TextoComponent } from './texto/texto.component';
 import { CicloComponent } from './ciclo/ciclo.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { DiretivasComponent } from './diretivas/diretivas.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     ComponenteInicialComponent,
     TextoComponent,
     CicloComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    DiretivasComponent
   ],
   imports: [
     BrowserModule,
