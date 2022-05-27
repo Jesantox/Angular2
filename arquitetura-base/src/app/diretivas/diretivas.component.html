@@ -28,4 +28,11 @@
 <button (click)="addUserList()">add usuário</button>
 <button (click)="removeLastUserList()">remover ultimo usuário</button>
 
+<input type="text" [(ngModel)]="nome"> 
+<div [ngSwitch]="nome">
+    <p *ngSwitchCase="'teste1'"> teste01 </p>
+    <p *ngSwitchCase="'teste2'"> teste02 </p>
+    <p *ngSwitchDefault> n foi possível encontrar </p>
+</div>
+
 

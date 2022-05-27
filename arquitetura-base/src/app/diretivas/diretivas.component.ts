@@ -9,6 +9,7 @@ export class DiretivasComponent implements OnInit {
 
   public condition: boolean = true
   public conditionClick: boolean = true
+  public nome: string = 'teste1'
 
   public list: Array<{nome: string, idade: number}> = [
     { nome: "Teste01", idade: 20},
