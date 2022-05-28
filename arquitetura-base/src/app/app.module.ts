@@ -7,7 +7,7 @@ import { ComponenteInicialComponent } from './componente-inicial/componente-inic
 import { TextoComponent } from './texto/texto.component';
 import { CicloComponent } from './ciclo/ciclo.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'; // para poder usar o ngModel
 import { DiretivasComponent } from './diretivas/diretivas.component';
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
 
