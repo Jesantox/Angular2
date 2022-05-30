@@ -14,6 +14,22 @@ export class DiretivasAtributosComponent implements OnInit {
   public list: Array<{nome: string}> = [
     {nome: 'José'}
   ]
+  public date:Date = new Date()
+
+  public title = "Pequeno teste para os títulos e pipes";
+  public pi = 3.14159265359;
+ 
+  public jsonObj = {
+    nome: 'Dener',
+    sobrenome: 'Troquatte',
+    idade: 30,
+    endereco: {
+      a1: 'São Paulo',
+      a2: 'Brasil'
+    }
+  };
+ 
+  public diasSemana = ['Segunda','Terça','Quarta','Quinta','Sexta','Sabado','Domingo'];
 
   constructor() { }
 
