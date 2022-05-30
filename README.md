@@ -10,6 +10,7 @@
 ### 👉 <a href='#ciclo-de-vida'>CICLOS DE VIDA</a>
 ### 👉 <a href='#data-binding'>DATA BINDING</a>
 ### 👉 <a href='#diretiva-angular'>DIRETIVA ANGULAR</a>
+### 👉 <a href='#modulo'>MÓDULOS</a>
 ### 👉 <a href='#vantagens'>VANTAGENS</a>
  </span>
  
@@ -225,6 +226,42 @@
   👉 <a href='https://angular.io/api/common/NgModel'> 
          <strong> *ngModel </strong>
      </a> : adiciona vinculação de dados bidirecional a um elemento de formulário HTML <br><br>
+  </details>
+  
+  <details>
+  <summary> <span id='modulo'> MÓDULOS </span> </summary> <br>
+ 
+  É um mecanismo que agrupa componentes, diretivas, pipes e serviços, <br>
+  de forma a combinar com outros módulos para criar um aplicativo. <br>
+ 
+  Uma aplicação angular é como se fosse um quebra-cabeça. Onde cada bloco tem como <br>
+  objetivo fornecer uma funcionalidade ou recurso específico. Deixando assim, a aplicação <br>
+  mais limpa, rápida e robusta
+ 
+ 🔶 `anatomia do NgModule` <br>
+ 
+ ```
+ @NgModule({
+ declarations: [], // declarar nossos componentes dentro do módulo específico
+ imports: [], // importar funcionalidades externas ou componente de outro módulo
+ exports: [], // quando precisamos reutilizar um componenete e suas funcionalidaddes em outro módulo
+ providers: [], // declarar serviços como : requisição ao backend, requisições externas
+ bootstrap: [] // só se deve usar uma única vez, que é no componente principal
+ })
+ ```
+ 
+ 🔶 `criando Sub-modules`
+ 
+ ```
+ ng g m 'name'
+ ```
+ 
+ 🔶 `criando componente no Sub-modules`
+ 
+ ```
+ ng g c 'name/componentName'
+ ```
+ 
   </details>
  
   <details>
