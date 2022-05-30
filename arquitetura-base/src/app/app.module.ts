@@ -20,7 +20,7 @@ import { SharedModule } from './shared/shared.module';
     CicloComponent,
     DataBindingComponent,
     DiretivasComponent,
-    DiretivasAtributosComponent
+    DiretivasAtributosComponent,
   ],
   imports: [
     BrowserModule,
