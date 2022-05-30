@@ -9,6 +9,7 @@
 ### 👉 <a href='#componente'>COMPONENTES</a>
 ### 👉 <a href='#ciclo-de-vida'>CICLOS DE VIDA</a>
 ### 👉 <a href='#data-binding'>DATA BINDING</a>
+### 👉 <a href='#diretiva-angular'>DIRETIVA ANGULAR</a>
 ### 👉 <a href='#vantagens'>VANTAGENS</a>
  </span>
  
@@ -169,7 +170,62 @@
   e atualizar valores simultaneamente entre os componentes pai e filho. <br>
  
   </details>
+  
+  <details>
+  <summary> <span id='diretiva-angular'> DIRETIVA ANGULAR </span> </summary> <br>
  
+  São classes que incrementam comportamento adicional aos elementos em aplicativos Angular. <br>
+  Com isso, podemos gerenciar formulários, listas, estilos e oque os usuários vêem. Ou seja, <br>
+  manipulamos o `DOM` do nosso HTML. Conseguimos ocultar, mostrar, iterar uma lista etc... <br><br>
+ 
+  👉 <a href='https://angular.io/api/core/ng-template'> 
+         <strong> *ng-template </strong> 
+       </a> : Permite ter o controle total sobre como e quando o conteúdo é exibido <br>
+ 
+  👉 <a href='https://angular.io/api/core/ng-content'> 
+         <strong> *ng-content </strong> 
+       </a> : Permite posicionar elementos dentro de um componente selecionando-o <br>
+ 
+  👉 <a href='https://vidafullstack.com.br/angular/o-que-e-um-pipe-angular/'> 
+         <strong> pipes </strong> 
+       </a> : Permite formatar dados diretamente no HTML chamando o `|`<br><br>
+ 
+ 
+  🔶 `diretiva estrutural` <br>
+ 
+  Responsável por moldar ou remodelar a estrutura do DOM, adicionando, removendo e <br>
+  manipulando os elementos do host aos quais estão anexados. <br>
+ 
+  👉 <a href='https://angular.io/api/common/NgIf'> 
+         <strong> *ngIf </strong>
+     </a> : Condicionalmente cria ou descarta visualizações do modelo. <br>
+ 
+  👉 <a href='https://angular.io/api/common/NgForOf'> 
+         <strong> *ngFor </strong>
+     </a> : Repete um nó para cada item de uma lista. <br>
+ 
+  👉 <a href='https://angular.io/api/common/NgSwitch'> 
+         <strong> *ngSwitch </strong>
+     </a> : Um conjunto de diretivas que alternam entre visões alternativas. <br><br>
+ 
+ 
+  🔶 `diretiva atributo` <br>
+ 
+  Responsável por alterar a aparência ou comportamento <br>
+  de um elemento, componente ou outra diretiva. <br>
+
+   👉 <a href='https://angular.io/api/common/NgClass'> 
+         <strong> *ngClass </strong>
+     </a> : adiciona e remove um conjunto de classes CSS <br>
+ 
+  👉 <a href='https://angular.io/api/common/NgStyle'> 
+         <strong> *ngStyle </strong>
+     </a> : adiciona e remove um conjunto de estilos HTML <br>
+ 
+  👉 <a href='https://angular.io/api/common/NgModel'> 
+         <strong> *ngModel </strong>
+     </a> : adiciona vinculação de dados bidirecional a um elemento de formulário HTML <br><br>
+  </details>
  
   <details>
   <summary> <span id='vantagens'> VANTAGENS </span> </summary> <br>
