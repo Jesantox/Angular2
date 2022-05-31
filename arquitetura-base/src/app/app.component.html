@@ -1,4 +1,4 @@
-<section class="components" *ngIf="!deletarCiclo"> 
+<!-- <section class="components" *ngIf="!deletarCiclo"> 
     <app-ciclo class="filhos" [idade] = 'valorIdade' ></app-ciclo>
     <button (click)="mudarValor()">Mudar valor</button>
     <button (click)="destruirCiclo()">Destruir Ciclo</button>
@@ -12,5 +12,10 @@
     <hr>
 </app-diretivas-atributos>
 <app-new-component></app-new-component>
-
+ -->
  <app-input [contador]="10"></app-input>
+ <ng-template [ngIf]="getDados">
+     <h1>{{getDados.nome}}</h1>
+     <p>{{getDados.idade}}</p>
+ </ng-template> 
+ <app-output (enviarDados)="setDados($event)"></app-output>

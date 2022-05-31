@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   valorIdade: number = 10
-
   deletarCiclo: boolean = false
+  public getDados: {nome: string, idade: number} | undefined
 
 
   destruirCiclo() {
@@ -22,5 +22,9 @@ export class AppComponent {
    */
   mudarValor(){
     this.valorIdade++
+  }
+
+  public setDados(event: {nome: string, idade: number}){
+    this.getDados = event
   }
 }
