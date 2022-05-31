@@ -1,0 +1,12 @@
+<p>{{usuario}}</p> <!-- interpolação -->
+<div>
+  <h2>{{idade}}</h2>
+  <div>
+    <p>{{idade}}</p>
+  </div>
+</div>
+<button (click)="aumentarIdade()">aumentar idade</button> <!-- Event Binding-->
+<button (click)="alertaInfo()">alertar1</button> <!-- Event Binding-->
+<button (click)="alertar('outra notify')">alertar2</button> <!-- Event Binding-->
+<button [disabled]="checked">habilitar/desabilitar</button> <!-- Property Binding-->
+<img [src]="imgSRC" alt=""> <!-- Property Binding-->

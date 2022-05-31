@@ -1,0 +1,38 @@
+<p *ngIf="condition">true</p> <!-- mostrando elemento -->
+<p *ngIf="false">false</p> <!-- N mostrando elemento-->
+
+<p *ngIf="condition; else elseBlock">True</p>
+
+<ng-template #elseBlock>
+    <p>false</p>
+</ng-template>
+
+<hr>
+
+<p *ngIf="conditionClick">
+    True
+</p>
+
+<p *ngIf="!conditionClick">
+    False
+</p>
+
+<button (click)="onClick()">clicar</button>
+
+<ul>
+    <li *ngFor="let item of list; let i = index" (click)="removerComClick(i)">
+        [ {{i}} ] - {{item.nome}} - idade = {{item.idade}}
+    </li>
+</ul>
+
+<button (click)="addUserList()">add usuário</button>
+<button (click)="removeLastUserList()">remover ultimo usuário</button>
+
+<input type="text" [(ngModel)]="nome"> 
+<div [ngSwitch]="nome">
+    <p *ngSwitchCase="'teste1'"> teste01 </p>
+    <p *ngSwitchCase="'teste2'"> teste02 </p>
+    <p *ngSwitchDefault> n foi possível encontrar </p>
+</div>
+
+
